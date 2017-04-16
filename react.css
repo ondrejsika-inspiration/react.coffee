@@ -81,7 +81,7 @@ body {
   margin: 0 5% 30px;
 }
 @media only screen and (min-width: 43.75em) {
-  .wrapper p {
+  .wrapper p, .wrapper ol {
     margin-left: 15%;
     margin-right: 15%;
   }
