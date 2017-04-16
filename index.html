@@ -3,52 +3,98 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>React.js nad šálkem kávy - Josef Rousek</title>
+        <title>GraphQL nad šálkem kávy - Josef Rousek</title>
         <link href="react.css" rel="stylesheet">
         <meta name="author" content="Josef Rousek">
-        <meta name="description" content="Workshop zaměřený na GraphQL a Relay">
+        <meta name="description" content="Workshop zaměřený na GraphQL a Apollo">
         <link rel="canonical" href="/">
-        <link href='//fonts.googleapis.com/css?family=Lora:400,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link href='//fonts.googleapis.com/css?family=Merriweather|Montserrat:400,700|Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     </head>
     <body>
-        <article>
-          <div class="machine">
-            <div class="machine-top">
-              <div class="machine-middle"></div>
-            </div>
-            <div class="machine-bottom"></div>
-            <div class="hand"></div>
-            <div class="left-hand"></div>
-            <div class="coffee"></div>
-          </div>
 
-          <heading>
-            <h1>
-              React.js nad šálkem kávy
-            </h1>
-            <h2>workshop zaměřený na GraphQL a Relay</h2>
-          </heading>
+<section class="hero">
+<h1>GraphQL a Apollo<span>workshop</span></h1>
+<h2>Pojď si vyzkoušet nejnovější způsob datové komunikace vytvořený Facebookem.</h2>
+</section>
+<section class="section">
+<div class="wrapper">
+  <h2>Co si představíme?</h2>
+  <p>
+    GraphQL je dotazovací jazyk umožňující klientovi specifikovat jaká data a v jaké formě ze serveru dostane.
+  </p>
 
-          <p class="content">
-            Jmenuji se <a href="http://rousek.name/">Josef Rousek</a> a chystám workshop zaměřený na použití GraphQL s Django aplikací.
-          </p>
+  <h2>Co nám to umožňuje?</h2>
 
-          <form action="https://www.getdrip.com/forms/41709095/submissions" method="post" data-drip-embedded-form="41709095" class="subscribe">
-            <h2 data-drip-attribute="headline">Přihlaš se a ozvu se ti, až to bude připravené</h2>
-            <div data-drip-attribute="description"></div>
-              <div>
-                  <label for="fields[email]">Tvůj e-mail</label><br />
-                  <input type="email" name="fields[email]" />
-              </div>
-            <div>
-              <input type="submit" name="submit" value="Přihlásit" data-drip-attribute="sign-up-button" />
-            </div>
-          </form>
-      </article>
+  <div class="box__grid">
+    <article class="box">
+      <div class="box__content">
+        <i class="fa fa-coffee fa-3x"></i>
+        <h3 class="box__title">Méně rozhodování při tvorbě API</h3>
+        <p>
+          GraphQL má narozdíl od REST pevně danou strukturu, umožní nám to soustředit se na vývoj aplikace.
+        </p>
+      </div>
+    </article>
+    <article class="box">
+      <div class="box__content">
+        <i class="fa fa-leaf fa-3x"></i>
+        <h3 class="box__title">Méně dotazů na server</h3>
+        <p>
+          Potřebná data pro zobrazení obrazovky seskupíme do jednoho dotazu.
+        </p>
+      </div>
+    </article>
+    <article class="box">
+      <div class="box__content">
+        <i class="fa fa-rocket fa-3x"></i>
+        <h3 class="box__title">Volnost pří vývoji klientských aplikací</h3>
+        <p>
+          Podobu dat specifikujeme na klientovi, můžeme tedy experimentovat s podobou obrazovek.
+        </p>
+      </div>
+    </article>
+  </div>
 
-      <footer>
-        <p>Coffee machine by <a href="http://codepen.io/shadeed/pen/xGBxPQ">Ahmad Shadeed</a></p>
-      </footer>
+  <h2>Pro koho kurz je?</h2>
+  <p>
+    Očekávám základní znalost Reactu a serverového jazyka, ať už je to Python, Ruby nebo C#.
+  </p>
+
+  <h2>Proč já?</h2>
+  <p>S Reactem pracuji od jeho ranných verzí. Snažil jsem se jej pochopit, a následně
+     pracoval dle aplikační architektury Flux. Podílel jsem se na tvorbě Doména.cz,
+     registrace domény pro normální lidi. Posledních několik měsíců jsem
+     spolupracoval na tvorbě chatovací služby pro zákaznickou podporu ve firmě Brand Embassy.
+   </p>
+   <p>Koučoval jsem také začátečníky při vývoji open source CMS <a href="http://keystonejs.com">Keystone.js</a>
+     v rámci <a href="http://railsgirlssummerofcode.org">Rails Girls Summer of Code</a>.
+   </p>
+
+  <h2>Cena</h2>
+  <p>2 000 Kč za účastníka. Nejsem plátce DPH.</p>
+
+  <h2>Kdy a kde?</h2>
+  <p>čtvrtek 11. května 2017 13:00 - 18:00</p>
+  <p>
+      Setkáme se někde v centu Prahy.
+  </p>
+
+  <h2>Chci kurz u nás ve firmě</h2>
+  <p>Jste alespoň dva? Domluvíme se na termínu a přijedu za vámi.</p>
+
+</div>
+</section>
+<div class="section section--cta">
+<div class="wrapper">
+  <h2 class="section__title">Chci se přihlásit</h2>
+  <p class="section__intro">Napiš mi mail na <a href="mailto:josef@rousek.name">josef@rousek.name</a>.</p><a class="btn" href="mailto:josef@rousek.name">Objednat kurz</a>
+</div>
+</div>
+<div class="footer">
+<p>&copy; 2017 Josef Rousek</p>
+</div>
 
         <!-- Drip -->
         <script type="text/javascript">
